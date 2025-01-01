@@ -37,7 +37,7 @@ function App() {
           <Nav className="me-auto">
             <Nav.Link
               onClick={() => {
-                navigate("/");
+                navigate("/shop");
               }}
             >
               Home
@@ -65,7 +65,7 @@ function App() {
       <Suspense fallback={<div>로딩중임</div>}>
         <Routes>
           <Route
-            path="/"
+            path="/shop"
             element={
               <div>
                 <div className="main-bg"></div>
